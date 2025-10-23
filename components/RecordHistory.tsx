@@ -8,7 +8,7 @@ export default function RecordHistory() {
   )
 }
 
-
+ 
 // import getRecords from '@/app/actions/getRecords';
 // import RecordItem from './RecordItem';
 // import { Record } from '@/types/Record';
