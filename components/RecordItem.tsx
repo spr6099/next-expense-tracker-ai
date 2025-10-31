@@ -33,11 +33,11 @@ const RecordItem = ({ record }: { record: Record }) => {
   };
 
   // Determine border color based on expense amount
-  const getBorderColor = (amount: number) => {
-    if (amount > 100) return 'border-red-500'; // High expense
-    if (amount > 50) return 'border-yellow-500'; // Medium expense
-    return 'border-green-500'; // Low expense
-  };
+    const getBorderColor = (amount: number) => {
+      if (amount > 100) return 'border-red-500'; // High expense
+      if (amount > 50) return 'border-yellow-500'; // Medium expense
+      return 'border-green-500'; // Low expense
+    };
 
   return (
     <li

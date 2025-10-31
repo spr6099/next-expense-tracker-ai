@@ -12,7 +12,7 @@ export default function ClerkThemeProvider({
   children,
 }: ClerkThemeProviderProps) {
   const { theme } = useTheme();
-
+ 
   return (
     <ClerkProvider
       appearance={{
@@ -75,7 +75,7 @@ export default function ClerkThemeProvider({
           },
         },
       }}
-    >
+    > 
       {children}
     </ClerkProvider>
   );

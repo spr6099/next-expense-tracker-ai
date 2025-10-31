@@ -1,5 +1,4 @@
 
-import React from 'react';
 import getUserRecord from '@/app/actions/getUserRecord';
 import getBestWorstExpense from '@/app/actions/getBestWorstExpense';
 

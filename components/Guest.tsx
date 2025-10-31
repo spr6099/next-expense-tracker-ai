@@ -15,7 +15,7 @@ const Guest = () => {
             <span className='sm:hidden'>AI Financial Management</span>
           </div>
           <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 leading-tight'>
-            Welcome to{' '}
+            Welcome to
             <span className='bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent'>
               ExpenseTracker AI
             </span>
@@ -88,7 +88,7 @@ const Guest = () => {
               FAQ
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
-              Frequently Asked{' '}
+              Frequently Asked
               <span className='text-emerald-600 dark:text-emerald-400'>
                 Questions
               </span>
@@ -171,7 +171,7 @@ const Guest = () => {
               Testimonials
             </div>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0'>
-              What Our Users{' '}
+              What Our Users
               <span className='text-emerald-600 dark:text-emerald-400'>
                 Say
               </span>
