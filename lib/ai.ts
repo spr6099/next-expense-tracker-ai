@@ -130,6 +130,8 @@ export async function generateExpenseInsights(
     });
 
     const response = completion.choices[0].message.content;
+// console.log("response",response)
+
     if (!response) {
       throw new Error('No response from AI');
     }
